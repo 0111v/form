@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("/Norse-Bold.otf");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  display: block;
+  width: 80%;
+  border: 1px solid rgba(199, 198, 198, 0.459);
+  outline: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+input:focus {
+  border: 1px solid blue;
+  outline: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.123);
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  
+  align-items: center;
+  /* align-content: center; */
+  /* justify-content: space-between; */
+  height: 100vh;
+}
+
+.left-container {
+  background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+  object-fit: contain;
+  height: 100%;
+  width: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo-container {
+  width: 100%;
+  height: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.logo-container-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.596);
+  width: 100%;
+  height: 150px;
+}
+
+.logo-container-inner p {
+  font-family: "Norse-Bold";
+}
+
+.logo-container img {
+  height: 80%;
+  object-fit: container;
+}
+
+.logo-container p {
+  color: white;
+  font-size: 80px;
+}
+
+.credits {
+  place-content: end center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+  height: 60%;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 20px 0
+}
+
+
+
+.credits a {
+  color: white;
+}
+
+.right-container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(247, 247, 247);
+
+}
+
+.right-header {
+  padding: 25px 40px;
+  width: 100%;
+}
+
+
+.header-text {
+  padding: 25px 0;
+  font-size: 24px;
+  font-weight: 500;
+
+}
+
+.header-p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form-container {
+  background-color: white;
+  width: 100%;
+  padding: 25px 40px;
+}
+
+.form-container h1 {
+  padding-bottom: 20px;
+}
+
+.input-container {
+  padding: 10px 0;
+}
+
+.input-container input:focus {
+  border-color: blue;
+}
+
+form {
+  width: 100%;
+}
+
+.form-container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 720px;
+}
+
+.create-container {
+  padding: 25px 40px ;
+  width: 100%;
+}
+
+.create-container p {
+  margin-top: 24px;
+}
+
+.create-container a {
+  color: rgb(70, 110, 70);;
+}
+
+button {
+  padding: 10px 40px;
+  background-color: rgb(70, 110, 70);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form project</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <main>
+    <div class="left-container">
+      <div class="logo-container">
+        <div class="logo-container-inner">
+          <img  src="images/odin-lined.png" alt="">
+          <p class="logo-name">ODIN</p>
+        </div>
+      </div>
+      <div class="credits">
+        <p >Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></p>
+      </div>
+    </div>
+
+    <div class="right-container">
+      <div class="right-header">
+        <p class="header-text">
+          This is not a real online service! You know tou need something like this in tour life to help tou realize your deepest dreams. <br>Sing up now to get started!
+        </p>
+        <p class="header-p">You know tou want to.</p>
+      </div>
+      
+      <div class="form-container">
+        <h1>Let's do this!</h1>
+        <form action="#" method="get">
+          <div class="form-container-grid">
+            <div class="input-container">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="first-name" id="first-name" placeholder="">
+            </div>
+            <div class="input-container">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="last-name" id="last-name" placeholder="">
+            </div>
+            <div class="input-container">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" placeholder="">
+            </div>
+            <div class="input-container">
+              <label for="phone">PHONE NUMBER</label>
+              <input inputmode="numeric" oninput="this.value = this.value.replace(/\D+/g, '')" type="tel number"  name="phone" id="phone" placeholder="">
+            </div>
+            <div class="input-container">
+              <label for="password">PASSWORD</label>
+              <input class="js-password" type="password" name="password" id="password" placeholder="">
+            </div>
+            <div class="input-container">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input class="js-confirm-password" type="password" name="confirm-password" id="confirm-password" placeholder="">
+            </div>
+          </div>
+
+          <div class="create-container">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </form>
+      </div>
+
+      
+    </div>
+
+    <span class="span-warning"></span>
+  </main>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
